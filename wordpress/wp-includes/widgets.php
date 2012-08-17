@@ -681,6 +681,7 @@ function wp_sidebar_description( $id ) {
 		return esc_html( $wp_registered_sidebars[$id]['description'] );
 }
 
+
 /**
  * Remove widget from sidebar.
  *
@@ -1148,7 +1149,7 @@ function _get_widget_id_base($id) {
  * Handle sidebars config after theme change
  *
  * @access private
- * @since 3.3.0
+ * @since 3.3
  */
 function _wp_sidebars_changed() {
 	global $sidebars_widgets;
