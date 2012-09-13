@@ -92,7 +92,7 @@
 }
 
 .gce-widget-grid .gce-calendar{ /* Main calendar table */
-	width:100%;
+	width:67%; /* TDV mod, was 100% */
 	border:1px solid #CCCCCC;
 	border-collapse:collapse;
 }

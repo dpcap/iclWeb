@@ -21,4 +21,6 @@ Template Name: Template | 3
  * @todo Define version
  */
 
+//query_posts( 'cat=5' );
 setup_pagelines_template();
+
